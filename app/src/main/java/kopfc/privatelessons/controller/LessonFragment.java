@@ -1,14 +1,13 @@
 package kopfc.privatelessons.controller;
 
+import android.app.Activity;
 import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
+import android.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
-import kopfc.privatelessons.R;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -86,7 +85,7 @@ public class LessonFragment extends Fragment
 //    @Override
     public void onAttach(Context context)
     {
-        super.onAttach(context);
+        super.onAttach((Activity)context);
         if (context instanceof OnFragmentInteractionListener)
         {
             mListener = (OnFragmentInteractionListener) context;

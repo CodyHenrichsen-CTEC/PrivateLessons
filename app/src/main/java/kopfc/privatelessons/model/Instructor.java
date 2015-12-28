@@ -15,7 +15,11 @@ public class Instructor
 
     public Instructor()
     {
-
+        name = "";
+        email = "no@kopfc.com";
+        biography = "empty";
+        strokes = new String[]{""};
+        availability = new boolean[]{false, false, false};
     }
 
     public Instructor(String name, String email, String biography, String[] strokes, boolean[] availability)

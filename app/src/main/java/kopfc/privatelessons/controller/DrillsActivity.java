@@ -5,8 +5,6 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import kopfc.privatelessons.R;
-
 public class DrillsActivity extends ActionBarActivity
 {
 

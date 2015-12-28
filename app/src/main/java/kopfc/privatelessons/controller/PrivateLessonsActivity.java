@@ -16,8 +16,6 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import kopfc.privatelessons.R;
-
 
 public class PrivateLessonsActivity extends ActionBarActivity
 {
@@ -117,7 +115,7 @@ public class PrivateLessonsActivity extends ActionBarActivity
     {
         Fragment lessonFragment = new LessonFragment();
         Bundle args = new Bundle();
-        args.putInt(LessonFragment.ARG_LESSON_MENU, position);
+        //args.putInt(LessonFragment.ARG_LESSON_MENU, position);
         lessonFragment.setArguments(args);
 
         FragmentManager fragmentManager = getFragmentManager();
